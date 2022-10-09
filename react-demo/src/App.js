@@ -3,6 +3,7 @@ import './App.css';
 //import MyComponent from './component/Greet';
 import {Greet} from './component/Greet';
 import { Message } from './component/Message';
+import { ClickHandler } from './component/ClickHandler';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
 
         <p>This is children props</p>
         <button>Action</button>
-      </Greet> */}
-      <Message />
+      </Greet> 
+      <Message />*/}
+      <ClickHandler/>
     </div>
   );
 }
